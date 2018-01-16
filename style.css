@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Roboto", serif;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 18px 40px;
+    background-color: red;
+}
+
+.yellow {
+    background: #efc84a;
+}
+
+.green {
+    background: #00ca74;
+}
+
+.main-header {
+    height: 545px;
+    background-color: #eee;
+    margin-bottom: 80px;
+}
+
+.main-header .slider .slides {
+    width: 1160px;
+    height: 430px;
+    margin: 0 auto;
+}
+
+.main-header .slider .controls {
+    position: absolute;
+    width: 200px;
+    height: 18px;
+    left: 50%;
+    margin-left: -100px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.main-header .slider .controls i {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 8px;
+    background: white;
+    border: 5px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main-header .slider .controls i.active {
+    background: #c1c1c1;
+}
+
+.features section {
+    margin-bottom: 155px;
+}
+
+.features section article h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.features section article p {
+    max-width: 245px;
+    line-height: 24px;
+    color: #283136;
+}
+
+.features section article {
+    float: left;
+    margin-right: 100px;
+}
+
+.features section article:nth-child(3n) {
+    margin-right: 0;
+}
+
+
+
+
+
