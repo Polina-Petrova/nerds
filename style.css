@@ -5,7 +5,9 @@ html, body {
 
 body {
     font-size: 16px;
+    line-height: 24px;
     font-family: "Roboto", serif;
+    color: #283136;
 }
 
 .container {
@@ -25,8 +27,9 @@ body {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    padding: 18px 40px;
+    padding: 14px 41px;
     background-color: red;
+    border-radius: 2px;
 }
 
 .yellow {
@@ -74,29 +77,129 @@ body {
     background: #c1c1c1;
 }
 
-.features section {
-    margin-bottom: 155px;
+main .features section {
+    margin-bottom: 80px;
 }
 
-.features section article h3 {
+main .features section article h3 {
     font-size: 24px;
     line-height: 30px;
+    margin: 0;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    color: black;
+    text-transform: uppercase;
 }
 
-.features section article p {
+main .features section article p {
     max-width: 245px;
-    line-height: 24px;
-    color: #283136;
+    margin: 0;
+    padding-bottom: 30px;
 }
 
-.features section article {
+main .features section article {
     float: left;
     margin-right: 100px;
 }
 
-.features section article:nth-child(3n) {
+main .features section article:nth-child(3n) {
     margin-right: 0;
 }
+
+main .about-us b {
+    display: inline-block;
+    font-size: 45px;
+    line-height: 45px;
+    color: black;
+    padding-bottom: 15px;
+}
+
+main .about-us span {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main .about-us .left-column {
+    float: left;
+    width: 660px;
+    margin-top: 35px;
+}
+
+main .about-us .left-column p {
+    max-width: 620px;
+}
+
+main .about-us .left-column li {
+    position: relative;
+    padding-bottom: 24px;
+    padding-left: 35px;
+}
+
+main .about-us .left-column li::before {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    content: "";
+    background-color: red;
+    width: 25px;
+    height: 2px;
+
+}
+
+main .about-us .right-column {
+    float: right;
+    width: 360px;
+}
+
+main .about-us ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+main .about-us .right-column li {
+    float: left;
+    width: 110px;
+    margin-right: 10px;
+    line-height: 18px;
+}
+
+main .about-us .right-column li:nth-child(3) {
+    margin-right: 0;
+}
+
+main .about-us .right-column span {
+    padding-top: 29px;
+    padding-bottom: 31px;
+    padding-left: 17px;
+}
+
+main .about-us .right-column b {
+    display: inline-block;
+    font-size: 45px;
+    line-height: 45px;
+    color: black;
+    padding-bottom: 19px;
+}
+
+main .about-us .right-column b sup {
+    font-size: 25px;
+    top: -0.6em;
+}
+
+main hr {
+    border: none;
+    background-color: #eeeeee;
+    height: 2px;
+    margin-bottom: 40px;
+}
+
+
+
 
 
 
