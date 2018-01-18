@@ -195,10 +195,46 @@ main hr {
     border: none;
     background-color: #eeeeee;
     height: 2px;
+}
+
+main .hr-1 {
     margin-bottom: 40px;
 }
 
+main .hr-2 {
+    margin-top: 49px;
+}
 
+
+
+main .partners a {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 34px 45px;
+}
+
+/*main .partners div::after {*/
+    /*position: absolute;*/
+    /*top: 30px;*/
+    /*left: 300px;*/
+    /*content: "";*/
+    /*background-color: #eeeeee;*/
+    /*width: 2px;*/
+    /*height: 52px;*/
+/*}*/
+
+main .partners a {
+    opacity: 0.5;
+}
+
+main .partners a:hover {
+    opacity: 1;
+}
+
+main .partners a:active {
+    opacity: 0.25;
+}
 
 
 
