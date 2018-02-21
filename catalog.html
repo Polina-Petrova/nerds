@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>магазин нердс</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="inner-page">
+<header class="main-header">
+    <div class="container">
+        <div class="header-top clearfix">
+            <a class="logo-link" href="index.html"><img class="logo" src="img/logo-nerds.png" alt="логотип"></a>
+            <ul>
+                <li><a href="#">Студия</a></li>
+                <li><a href="#">Клиенты</a></li>
+                <li><a href="#" class="selected">Магазин</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <img class="img-basket" src="img/icon-basket.png">
+            <a class="basket" href="#">Корзина</a>
+        </div>
+        <h1>Магазин готовых шаблонов</h1>
+    </div>
+</header>
+
+<main>
+    <div class="container clearfix">
+        <aside class="filter-layout">
+            <div class="range-filter">
+                <h2>стоимость:</h2>
+                <div class="range-controls">
+                    <div class="scale">
+                        <div style="width: 70%;" class="bar"></div>
+                    </div>
+                    <div class="toggle min-toggle"></div>
+                    <div class="toggle max-toggle"></div>
+                </div>
+                <div class="price-controls">
+                    от <input class="min-price" type="text" value="0">
+                    до <input class="max-price" type="text" value="15000">
+                </div>
+            </div>
+
+
+            <div class="select">
+                <div class="net-select">
+                    <h2>сетка:</h2>
+                    <ul>
+                        <li><label><input name="net" type="radio"><span class="radio-select"></span>Адаптивная</label></li>
+                        <li><label><input name="net" type="radio"><span class="radio-select"></span>Фиксированная</label></li>
+                        <li><label><input name="net" type="radio"><span class="radio-select"></span>Резиновая</label></li>
+                    </ul>
+                </div>
+                <div class="features-select">
+                    <h2>особенности:</h2>
+                    <ul>
+                        <li><label><input type="checkbox"><span class="checkbox-select"></span>Слайдер</label></li>
+                        <li><label><input type="checkbox"><span class="checkbox-select"></span>Блок преимуществ</label>
+                        </li>
+                        <li><label><input type="checkbox"><span class="checkbox-select"></span>Новости</label></li>
+                        <li><label><input type="checkbox"><span class="checkbox-select"></span>Галерея</label></li>
+                        <li><label><input type="checkbox"><span class="checkbox-select"></span>Корзина</label></li>
+                    </ul>
+                </div>
+                <a class="btn select-btn" href="#">показать</a>
+            </div>
+        </aside>
+
+        <div class="shop-layout">
+            <div class="filters clearfix">
+                <h2>сортировать:</h2>
+                <ul>
+                    <li class="visited">по цене</li>
+                    <li>по типу</li>
+                    <li>по названию</li>
+                </ul>
+            </div>
+            <section class="clearfix">
+                <article class="sedona">
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <img src="img/img-sedona.jpg">
+                    <div class="shop-info">
+                        <h2>Sedona</h2>
+                        <p>Информационный сайт<br>
+                            для туристов</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+                <article class="pink">
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <img src="img/img-pink.jpg">
+                    <div class="shop-info">
+                        <h2>Pink App</h2>
+                        <p>Продуктовый лендинг<br>
+                            приложения для iOS и Android</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+                <article class="barbershop">
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <img src="img/img-barbershop.jpg">
+                    <div class="shop-info">
+                        <h2>Barbershop</h2>
+                        <p>Сайт салоны красоты.<br>
+                            Для мужчин, да.</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+                <article class="mishka">
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <img src="img/img-mishka.jpg">
+                    <div class="shop-info">
+                        <h2>MISHKA</h2>
+                        <p>Интернет-магазин<br>
+                            вязаных игрушек</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+                <article class="aplus">
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <img src="img/img-aplus.jpg">
+                    <div class="shop-info">
+                        <h2>A Plus</h2>
+                        <p>Лендинг курсов повышения<br>
+                            квалификации</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+                <article class="kvast">
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <div class="white-circle"></div>
+                    <img src="img/img-kvast.jpg">
+                    <div class="shop-info">
+                        <h2>КВАСТ</h2>
+                        <p>Промо-сайт производителя<br>
+                            крафтового кваса</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+            </section>
+            <div class="pagination">
+                <a class="selected" href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">следующая</a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<section class="contacts-map">
+    <div class="map"><img src="img/map.jpg">
+        <div class="container">
+            <div class="contacts">
+                <b>NЁRDS DESIGN STUDIO</b>
+                <p>191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8</p>
+                <p>тел. +7 (812) 275-75-75</p>
+                <a class="btn">Напишите нам</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="main-footer">
+    <div class="container">
+        <div class="social">
+            <a href="#" class="social-btn vk"></a>
+            <a href="#" class="social-btn fb"></a>
+            <a href="#" class="social-btn insta"></a>
+            <h3>Давайте дружить, это выгодно!</h3>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
